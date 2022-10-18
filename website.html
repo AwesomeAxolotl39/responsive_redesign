@@ -1,0 +1,170 @@
+<!-- I used bootstrap (from the link provided in Jeff's video)-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="'width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style2.css">
+    <title>Responsive Redesign -- Route66 Restaurant</title>
+</head>
+
+<body>
+    <nav id="top" class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand navbar-text" href="#">Responsive Redesign</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="navbar-item"><a href="#probs" class="nav-link navbar-text">Useability Issues</a></li>
+                    <li class="navbar-item"><a href="#lofi" class="nav-link navbar-text">LoFi Prototyping</a></li>
+                    <li class="navbar-item"><a href="#hifi" class="nav-link navbar-text">HiFi Protyping</a></li>
+                    <li class="navbar-item"><a href="#redesign" class="nav-link navbar-text">Redesign</a></li>
+                </ul>
+            </div>
+    </nav>
+
+    <div class="d-flex-column justify-content-center align-items-center">
+        <h1>Route66 Restaurant (Bar Harbor, ME)</h1>
+        <img src="images2/site.png" alt="picture of original website" class="center">
+        <p class="text-center">This is the website for the Rooute66 Restaurant in Bar Harbor, Maine. I chose this
+            website is because I
+            think it is too busy and distracting, and, in particular, the size of the website header and the plethora of
+            large, bright photos
+            makes it hard and awkward to see what else is on the page.</p>
+    </div>
+
+    <hr class="rounded">
+
+    <div id="probs" class="container-fluid">
+        <h3 class="text-center">Useability Issues with Original Site</h3>
+        <h5>Learnability</h5>
+        <ul>
+            <li>The size of the header in relation to the navigation bar makes it hard for the user to find what they
+                are looking for.</li>
+            <li>When one first enters website, the header takes up half the screen and large images take up the other
+                half of the screen,
+                so there is no indication that one should scroll down.</li>
+            <li>There are a few instances where the text is a different color and it seems like it should be a link to
+                something
+                (e.g. the email address, phone number, address, etc), but there are no links, which is confusing</li>
+            <li>Some of the pictures have like buttons, but nothing happens when the button is clicked</li>
+        </ul>
+        <h5>Memorability</h5>
+        <ul>
+            <li>When the user hovers over a picture, it darkens, which makes it seem like something is going to happen.
+                However,
+                nothing does, but the darkening of the images make it hard to remember not to do this</li>
+            <li>Some of the links do not work (e.g. instagram), but the icons are still there, which makes it hard to
+                remember not
+                to click on them</li>
+            <li>When visiting the website on an iPad, the edges get cut off, so if someone is used to using it on a
+                computer
+                and then goes to the website on an iPad, it could be hard for them to remember where to find what they
+                need and
+                complete certain tasks</li>
+        </ul>
+        <h5>Efficiency</h5>
+        <ul>
+            <li>The “contact us” section is at the very bottom left corner, and one can only get to it after scrolling
+                through many large
+                images.
+            </li>
+            <li>The links to instagram, yelp, trip advisor, etc are practically invisible against the backdrop of the
+                pictures.
+            </li>
+            <li>The plethora of large, bright photos that take up most of the home page make it hard to find the parts
+                of the website
+                with actual information (menu, contact info, etc).
+            </li>
+            <li>It has a lot of information repeated in different format throughout the website, so it hard to remember
+                where to find the
+                information that one wants.
+            </li>
+        </ul>
+        <h5>Accessability</h5>
+        <p>The main issues that WAIVE found with the original website were errors due to empty links and bad contrast,
+            as well as a lot of “suspicious alternative text.” Given that issues that I found with the site were also
+            related to
+            missing links and text that was quite hard to read, I definitely agree with the detected problems.</p>
+        <div class="d-flex justify-content-center">
+            <a href="#top" class="btn btn-lg text-light"> return to top</a>
+        </div>
+    </div>
+
+    <hr class="rounded">
+
+    <div id="lofi" class="container-fluid d-flex-column justify-content-center align-items-center">
+        <h3 class="text-center">LoFi Prototypes</h3>
+        <div class="row d-flex justify-content-center">
+            <div class="col-sm">
+                <img src="images2/mac_lofi.png" alt="lofi prototype for laptop" style="width: 30vw; height: 25vw" class="image">
+            </div>
+            <div class="col-sm">
+                <img src="images2/phone_lofi.png" alt="lofi prototype for iPhone" style="width: 30vw" class="image">
+                NOTE: The LoFi prototypes for the iPhone and iPad are very similar (because they are mostly the same shape)
+                except that the
+                phone version would require more scrolling.
+            </div>
+            <div class="col-sm">
+                <img src="images2/ipad_lofi.png" alt="lofi prototype for iPad" style="width: 30vw; height: 25vw" class="image">
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <a href="#top" class="btn btn-lg text-light"> return to top</a>
+        </div>
+    </div>
+
+
+    </div>
+
+    <hr class="rounded">
+
+    <div id="hifi" class="container-fluid text-center">
+        <h3>HiFi Prototyping and Style Guide</h3>
+        <div class="row d-flex justify-content-center">
+            <h4>HiFi Protyping</h4>
+            <div class="col-sm">
+                <img src="images2/mac_hifi.png" alt="hihi prototype for laptop" style="width: 50rem; border: 0.2rem solid blueviolet;">
+            </div>
+            <p> NOTE: The HiFi protypes for the iPhone and iPade are very similar because the elements (eg. flex boxes, container-fluid, etc) are
+                the same across all 3 screen sizes.
+            </p>
+            <div class="col-sm">
+                <img src="images2/phone_hifi.png" alt="hihi prototype for iPhone" style="height: 40rem; border: 0.2rem solid blueviolet;">
+            </div>
+            <div class="col-sm">
+                <img src="images2/ipad_hifi.png" alt="hihi prototype for iPad" style="height: 40rem; border: 0.2rem solid blueviolet;">
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <h4>Style Guide</h4>
+            <img src="images2/style_guide.png" alt="style guide for redesigned website" style="width: 75vw; padding-bottom: 2vw;">
+        </div>
+        <div class="d-flex justify-content-center">
+            <a href="#top" class="btn btn-lg text-light"> return to top</a>
+        </div>
+    </div>
+
+    <hr class="rounded">
+
+    <div id="redesign" class="container-fluid text-center">
+        <h3>Redesigned Website:</h3>
+        <div class="row d-flex justify-content-center">
+            <h4>Screenshot of Website</h4>
+            <img src="images2/website.png" alt="screenshot of website" style="width: 75vw; padding-bottom: 2vw;">
+            <h4>
+                <a href="https://awesomeaxolotl39.github.io/redesign/"> Link to Website </a>
+            </h4>
+        </div>
+        <div class="row d-flex justify-content-center">
+            
+        </div>
+        <div class="d-flex justify-content-center" style="padding-top: 2vw">
+            <a href="#top" class="btn btn-lg text-light"> return to top</a>
+        </div>
+    </div>
+</body>
+
+</html>
